@@ -6,6 +6,6 @@ target 'PQPickFlavor' do
   use_frameworks!
 
   # Pods for PQPickFlavor
-    pod 'Alamofire', '~> 4.7'
-    pod 'MBProgressHUD', '~> 1.1.0', :modular_headers => true
+    pod 'Alamofire'
+    pod 'MBProgressHUD'
 end

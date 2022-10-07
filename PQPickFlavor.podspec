@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '13.0'
 s.name = "PQPickFlavor"
 s.summary = "PQPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -33,9 +33,8 @@ s.source = { :git => "https://github.com/PhanQuangaaaa/PQPPickFlavor",
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 4.7'
-s.dependency 'MBProgressHUD', '~> 1.1.0'
-
+s.dependency 'Alamofire'
+s.dependency 'MBProgressHUD'
 # 8
 s.source_files = "RWPickFlavor/**/*.{swift}"
 
@@ -43,6 +42,6 @@ s.source_files = "RWPickFlavor/**/*.{swift}"
 s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
-s.swift_version = "4.2"
+s.swift_version = "5.0"
 
 end
